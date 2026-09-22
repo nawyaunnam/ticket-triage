@@ -4,6 +4,21 @@ A trainable support-ticket classifier with multinomial Naive Bayes, confidence-b
 
 **Focus:** Machine learning engineering / model evaluation / NLP · Python 3.11+ · Standard library · Offline demo
 
+## Tech stack
+
+| Layer | Technologies used |
+| --- | --- |
+| Language | Python 3.11+ |
+| Model | Multinomial Naive Bayes implemented in Python |
+| NLP and evaluation | Regex tokenization, temporal split, macro F1, confusion matrix, abstention |
+| Model artifact | Versioned JSON model; no pickle |
+| Live source | GitHub REST API: labeled scikit-learn issues |
+| Dashboard | HTML5, CSS, vanilla JavaScript; Python HTTP server |
+| Data transport | urllib.request, verified TLS, JSON, ETag caching |
+| Testing and CI | unittest, GitHub Actions; Python 3.11–3.13 matrix |
+
+The implementation uses the Python standard library; no external Python packages are required.
+
 ## Run in two commands
 
 From this project directory:
@@ -35,8 +50,6 @@ Small English hand-authored dataset and simple bag-of-words model. Probabilities
 
 This is a portfolio implementation, not evidence of production use or business
 impact. Any reported metrics describe only the included demonstration data.
-Built with AI assistance; review, customize, and understand the implementation
-before presenting it as a personal project in an interview.
 
 ## Live public-data workflow
 
