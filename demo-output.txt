@@ -1,0 +1,59 @@
+{
+  "evaluation": {
+    "examples": 6,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "coverage": 1.0,
+    "majority_baseline_accuracy": 0.3333333333333333,
+    "per_class": {
+      "access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "bug": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion": {
+      "billing -> billing": 2,
+      "access -> access": 2,
+      "bug -> bug": 2
+    }
+  },
+  "prediction": {
+    "label": "billing",
+    "candidate": "billing",
+    "confidence": 0.9473684210526315,
+    "probabilities": {
+      "access": 0.026315789473684233,
+      "billing": 0.9473684210526315,
+      "bug": 0.026315789473684233
+    },
+    "known_terms": [
+      "invoice",
+      "payment",
+      "refund"
+    ],
+    "abstained": false
+  },
+  "unknown": {
+    "label": null,
+    "candidate": "access",
+    "confidence": 0.3333333333333333,
+    "probabilities": {
+      "access": 0.3333333333333333,
+      "billing": 0.3333333333333333,
+      "bug": 0.3333333333333333
+    },
+    "known_terms": [],
+    "abstained": true
+  }
+}

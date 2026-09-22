@@ -1,0 +1,14 @@
+test_abstention (test_engine.ClassifierTests.test_abstention) ... ok
+test_known_prediction (test_engine.ClassifierTests.test_known_prediction) ... ok
+test_metrics_include_abstentions (test_engine.ClassifierTests.test_metrics_include_abstentions) ... ok
+test_no_vocabulary_leakage (test_engine.ClassifierTests.test_no_vocabulary_leakage) ... ok
+test_numeric_stability (test_engine.ClassifierTests.test_numeric_stability) ... ok
+test_roundtrip (test_engine.ClassifierTests.test_roundtrip) ... ok
+test_atomic_report_roundtrip (test_feeds.FeedTests.test_atomic_report_roundtrip) ... ok
+test_network_failure_is_not_synthetic_fallback (test_feeds.FeedTests.test_network_failure_is_not_synthetic_fallback) ... ok
+test_nonfinite_output_rejected (test_feeds.FeedTests.test_nonfinite_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.014s
+
+OK

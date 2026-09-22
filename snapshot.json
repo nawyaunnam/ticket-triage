@@ -1,0 +1,4486 @@
+{
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=Bug",
+      "fetched_at": "2026-09-22T01:21:22.271868+00:00",
+      "etag": "W/\"79c18498d27ded91d3d4e5b0f04c8319dca9dbd3f0c4e2125bba5c4273108e05\"",
+      "poll_interval": 60,
+      "payload": [
+        {
+          "id": 5533567089,
+          "title": "Sharing links from scikit-learn.org gives the wrong link",
+          "created_at": "2026-09-21T23:30:35Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/35014",
+          "is_pull_request": false
+        },
+        {
+          "id": 5521941156,
+          "title": "Another UnicodeDecodeError on Windows with GBK",
+          "created_at": "2026-09-21T02:05:50Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/35001",
+          "is_pull_request": false
+        },
+        {
+          "id": 5496414970,
+          "title": "BUG fetch_file(url, folder=...) crashes with confusing FileNotFoundError instead of creating the directory",
+          "created_at": "2026-09-18T06:28:09Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Low Priority"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34987",
+          "is_pull_request": false
+        },
+        {
+          "id": 5433556582,
+          "title": "[BUG] RidgeClassifierCV(scoring=\"accuracy\", cv=None) returns incorrect best_score_ for binary classification",
+          "created_at": "2026-09-12T13:25:58Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34942",
+          "is_pull_request": false
+        },
+        {
+          "id": 5355320742,
+          "title": "balanced_accuracy_score(adjusted=True) returns -inf when a single class survives the NaN filter",
+          "created_at": "2026-09-05T03:41:44Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34889",
+          "is_pull_request": false
+        },
+        {
+          "id": 5347935598,
+          "title": "[BUG] `compute_class_weight` coerces class labels to int in 1.9, breaking dict lookup for string labels",
+          "created_at": "2026-09-04T12:14:02Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34883",
+          "is_pull_request": false
+        },
+        {
+          "id": 5313966408,
+          "title": "Investigation: Meson silently downgrades -O3 to -O2 under conda-forge CFLAGS",
+          "created_at": "2026-09-01T15:53:38Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Build / CI"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Needs Benchmarks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34865",
+          "is_pull_request": false
+        },
+        {
+          "id": 5301273614,
+          "title": "BUG: `QuantileTransformer()` sub-sampling impact is too high for sparse matrices",
+          "created_at": "2026-08-31T14:23:33Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34857",
+          "is_pull_request": false
+        },
+        {
+          "id": 5270023227,
+          "title": "StratifiedGroupKFold returns an empty fold when n_groups == n_splits: least-populated-fold tiebreak is defeated by 1-ULP noise",
+          "created_at": "2026-08-27T16:51:14Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34828",
+          "is_pull_request": false
+        },
+        {
+          "id": 5261285385,
+          "title": "OneHotEncoder unknown-category warning is incorrect for columns without an infrequent category",
+          "created_at": "2026-08-26T20:42:40Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34822",
+          "is_pull_request": false
+        },
+        {
+          "id": 5248371623,
+          "title": "`ScoringMonitor` is mutated by its listener thread while joblib pickles the estimator",
+          "created_at": "2026-08-25T16:50:16Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34816",
+          "is_pull_request": false
+        },
+        {
+          "id": 5216991280,
+          "title": "Race when pickling RecordingCallback during process-based parallelism on Python 3.14",
+          "created_at": "2026-08-21T18:21:43Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Investigation"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34792",
+          "is_pull_request": false
+        },
+        {
+          "id": 5181685647,
+          "title": "DictionaryLearning with split_sign=True breaks Pipeline.predict, get_feature_names_out and float32 dtype preservation",
+          "created_at": "2026-08-18T12:18:39Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34768",
+          "is_pull_request": false
+        },
+        {
+          "id": 5141595887,
+          "title": "BUG sample-weight ignored by `min_sample_leaf` in HGBDT",
+          "created_at": "2026-08-13T12:51:09Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:ensemble"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34745",
+          "is_pull_request": false
+        },
+        {
+          "id": 5140647127,
+          "title": "BUG: Two ProgressBar on the same estimator raises a KeyErr",
+          "created_at": "2026-08-13T10:59:49Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34744",
+          "is_pull_request": false
+        },
+        {
+          "id": 5132270289,
+          "title": "PytestRemovedIn10Warning (pytest version 9.1.1.) with sklearn parametrize_with_checks",
+          "created_at": "2026-08-12T14:58:48Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34738",
+          "is_pull_request": false
+        },
+        {
+          "id": 5130707494,
+          "title": "BUG: Callback's _worker_connections cache grows too big",
+          "created_at": "2026-08-12T12:08:50Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34734",
+          "is_pull_request": false
+        },
+        {
+          "id": 5126884902,
+          "title": "\u26a0\ufe0f CI failed on Unit tests Linux pymin_conda_forge_arm (last failure: Aug 12, 2026) \u26a0\ufe0f",
+          "created_at": "2026-08-12T03:30:31Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34732",
+          "is_pull_request": false
+        },
+        {
+          "id": 5090549082,
+          "title": "Can't `transform_input` for `fit_params` in `fit`",
+          "created_at": "2026-08-07T13:21:22Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34675",
+          "is_pull_request": false
+        },
+        {
+          "id": 5090515635,
+          "title": "Can't `transform_input` for `fit_params`",
+          "created_at": "2026-08-07T13:16:56Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34674",
+          "is_pull_request": false
+        },
+        {
+          "id": 5088590402,
+          "title": "Zero `sample_weight` raises ValueError in IsolationForest and Bagging estimators when bootstrap=False",
+          "created_at": "2026-08-07T09:03:06Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Regression"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34673",
+          "is_pull_request": false
+        },
+        {
+          "id": 5077319051,
+          "title": "dump_svmlight_file segfaults with multilabel=True and a 1D target array",
+          "created_at": "2026-08-06T03:36:49Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34661",
+          "is_pull_request": false
+        },
+        {
+          "id": 5062127967,
+          "title": "OPTICS always triggers and EfficiencyWarning",
+          "created_at": "2026-08-04T15:22:26Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34647",
+          "is_pull_request": false
+        },
+        {
+          "id": 5036497612,
+          "title": "`UnionFind.fast_find`'s path compression never touches the queried node \u2014 quadratic linkage labelling",
+          "created_at": "2026-08-01T10:04:27Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34626",
+          "is_pull_request": false
+        },
+        {
+          "id": 5035228749,
+          "title": "explained_variance_score returns a perfect 1.0 for a single sample (silently breaks LeaveOneOut CV)",
+          "created_at": "2026-08-01T04:15:36Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34622",
+          "is_pull_request": false
+        },
+        {
+          "id": 5021918318,
+          "title": "FIX indexable with dataframes",
+          "created_at": "2026-07-30T16:33:26Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "No Changelog Needed"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34605",
+          "is_pull_request": true
+        },
+        {
+          "id": 4940418936,
+          "title": "PowerTransformer raises raw TypeError on Pandas nullable integer (Int64) and float (Float64) dtypes containing pd.NA",
+          "created_at": "2026-07-21T15:21:06Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:preprocessing"
+            },
+            {
+              "name": "Needs Reproducible Code"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34538",
+          "is_pull_request": false
+        },
+        {
+          "id": 4932704115,
+          "title": "LogisticRegressionCV raises TypeError: make_scorer() got multiple values for keyword argument 'pos_label' with string scoring on binary classification (v1.9 regression)",
+          "created_at": "2026-07-20T20:14:01Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34531",
+          "is_pull_request": false
+        },
+        {
+          "id": 4932101780,
+          "title": "Failing wheel builds removed sklearn from anaconda nightly wheels, causing downstream CI failure",
+          "created_at": "2026-07-20T18:56:49Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34529",
+          "is_pull_request": false
+        },
+        {
+          "id": 4908835858,
+          "title": "GradientBoostingClassifier/Regressor._resize_state raises TypeError instead of ValueError on smaller n_estimators",
+          "created_at": "2026-07-17T06:49:51Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34497",
+          "is_pull_request": false
+        },
+        {
+          "id": 4884128061,
+          "title": "Infinite Recursion when using a mock as param for a Mock Classifier",
+          "created_at": "2026-07-14T14:36:14Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34477",
+          "is_pull_request": false
+        },
+        {
+          "id": 4875747984,
+          "title": "AdaBoostClassifier/Regressor.feature_importances_ has dead error-handling code",
+          "created_at": "2026-07-13T16:48:05Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34472",
+          "is_pull_request": false
+        },
+        {
+          "id": 4819141016,
+          "title": "The PyPI wheel doesn't bundle the right `libgomp` on Linux",
+          "created_at": "2026-07-06T12:31:09Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34437",
+          "is_pull_request": false
+        },
+        {
+          "id": 4818109800,
+          "title": "Birch: subcluster radius is numerically unstable far from the origin \u2014 clustering is not translation-invariant",
+          "created_at": "2026-07-06T10:12:27Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34436",
+          "is_pull_request": false
+        },
+        {
+          "id": 4709135660,
+          "title": "Reconsider zero-affinity row fallback in LabelPropagation/LabelSpreading (fit + predict_proba) to mathematically valid probability distributions",
+          "created_at": "2026-06-21T02:56:48Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34351",
+          "is_pull_request": false
+        },
+        {
+          "id": 4705034138,
+          "title": "\u26a0\ufe0f CI failed on Unit tests Linux x86-64 pylatest_pip_scipy_dev (last failure: Jul 20, 2026) \u26a0\ufe0f",
+          "created_at": "2026-06-20T03:58:30Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34344",
+          "is_pull_request": false
+        },
+        {
+          "id": 4699724122,
+          "title": "radius_neighbors with array radius works with n_jobs=1 but raises ValueError for n_jobs>1",
+          "created_at": "2026-06-19T09:51:36Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:neighbors"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34338",
+          "is_pull_request": false
+        },
+        {
+          "id": 4674853992,
+          "title": "`CalibratedClassifierCV(method=\"sigmoid\")` should always take the raw logits as inputs instead of the predicted probabilities",
+          "created_at": "2026-06-16T13:57:08Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:calibration"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34312",
+          "is_pull_request": false
+        },
+        {
+          "id": 4672959828,
+          "title": "Using `move_to` on a numpy array with negative stride crashes the Python process",
+          "created_at": "2026-06-16T09:39:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34307",
+          "is_pull_request": false
+        },
+        {
+          "id": 4663484770,
+          "title": "BUG: `QuantileTransformer()` may materialize sparse matrices",
+          "created_at": "2026-06-15T08:47:21Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34298",
+          "is_pull_request": false
+        },
+        {
+          "id": 4650627297,
+          "title": "FIX linear.cpp: avoid out-of-bound read in n_iter for crammer_singer",
+          "created_at": "2026-06-12T15:48:24Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:svm"
+            },
+            {
+              "name": "Quick Review"
+            },
+            {
+              "name": "Waiting for Second Reviewer"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34273",
+          "is_pull_request": true
+        },
+        {
+          "id": 4581178756,
+          "title": "Ridge fails with float32 dtypes on macOS",
+          "created_at": "2026-06-03T15:16:57Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:linear_model"
+            },
+            {
+              "name": "Needs Investigation"
+            },
+            {
+              "name": "float32"
+            },
+            {
+              "name": "OS:macOS"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34191",
+          "is_pull_request": false
+        },
+        {
+          "id": 4565209225,
+          "title": "BinaryTree/KDTree statistics are not thread-safe (and might be a performance issue)",
+          "created_at": "2026-06-01T17:52:39Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34175",
+          "is_pull_request": false
+        },
+        {
+          "id": 4534997907,
+          "title": "Handling of classes with all-zero weights",
+          "created_at": "2026-05-27T19:04:52Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34139",
+          "is_pull_request": false
+        },
+        {
+          "id": 4530041085,
+          "title": "Namespace checks trigger unnecessary errors for sparse matrices under array API",
+          "created_at": "2026-05-27T06:22:08Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34132",
+          "is_pull_request": false
+        },
+        {
+          "id": 4494790368,
+          "title": "KMeans can skip final label reassignment after empty-cluster relocation and return stale labels_/inertia_",
+          "created_at": "2026-05-21T13:09:49Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "module:cluster"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34074",
+          "is_pull_request": false
+        },
+        {
+          "id": 4479262871,
+          "title": "Deprecation warning of `probA_`/`probB_` raised in `_repr_mimebundle_`",
+          "created_at": "2026-05-19T16:43:15Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34056",
+          "is_pull_request": false
+        },
+        {
+          "id": 4469687633,
+          "title": "Inconsistent type of predictions and `classes_` for array API classifiers",
+          "created_at": "2026-05-18T13:52:49Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34047",
+          "is_pull_request": false
+        },
+        {
+          "id": 4469407104,
+          "title": "Should `move_to` handle non-array API inputs?",
+          "created_at": "2026-05-18T13:14:06Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34046",
+          "is_pull_request": false
+        },
+        {
+          "id": 4466045838,
+          "title": "Keyword-Only arguments in `train_test_split`",
+          "created_at": "2026-05-18T03:31:12Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34035",
+          "is_pull_request": false
+        },
+        {
+          "id": 4461941952,
+          "title": "BUG: Silent float32 upcasting to float64 in Pipeline/StandardScaler causes 2x memory bloat",
+          "created_at": "2026-05-17T01:48:41Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34032",
+          "is_pull_request": false
+        },
+        {
+          "id": 4460539362,
+          "title": "LinearSVC crammer_singer reports a garbage n_iter_",
+          "created_at": "2026-05-16T16:21:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34029",
+          "is_pull_request": false
+        },
+        {
+          "id": 4432871302,
+          "title": "Using dask distributed with a pipeline and column_transformer breaks metadata routing",
+          "created_at": "2026-05-12T21:50:14Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Metadata Routing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34005",
+          "is_pull_request": false
+        },
+        {
+          "id": 4430570194,
+          "title": "Array API: Ridge with alpha as an array fails due to misconfigured checks",
+          "created_at": "2026-05-12T15:47:14Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34003",
+          "is_pull_request": false
+        },
+        {
+          "id": 4425905219,
+          "title": "r2_score() no longer supports `pyarrow.ChunkedArray` inputs",
+          "created_at": "2026-05-12T03:19:06Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Blocker"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33993",
+          "is_pull_request": false
+        },
+        {
+          "id": 4399102300,
+          "title": "`test_search_cv_sample_weight_equivalence[estimator0]` fails when built with `-march=armv9-a`",
+          "created_at": "2026-05-07T13:25:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33942",
+          "is_pull_request": false
+        },
+        {
+          "id": 4353104942,
+          "title": "Incorrect KMeans centers update",
+          "created_at": "2026-04-29T19:19:55Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33901",
+          "is_pull_request": false
+        },
+        {
+          "id": 4348730348,
+          "title": "BUG: HTML representation fails with nested meta-estimator",
+          "created_at": "2026-04-29T07:40:37Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33887",
+          "is_pull_request": false
+        },
+        {
+          "id": 4346339579,
+          "title": "LogisticRegressionCV with use_legacy_attributes=False, refit=False",
+          "created_at": "2026-04-28T21:27:34Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33885",
+          "is_pull_request": false
+        },
+        {
+          "id": 4339474974,
+          "title": "BUG _parallel_pairwise does not slice Y_norm_squared alongside Y when n_jobs > 1",
+          "created_at": "2026-04-27T23:30:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33877",
+          "is_pull_request": false
+        },
+        {
+          "id": 4336510594,
+          "title": "BUG Spurious UserWarning with the deprecation of penalty in LogisticRegression",
+          "created_at": "2026-04-27T14:31:36Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33871",
+          "is_pull_request": false
+        },
+        {
+          "id": 4335970771,
+          "title": "Incorrect array API namespace and device for DPNP GPU arrays",
+          "created_at": "2026-04-27T13:08:29Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33870",
+          "is_pull_request": false
+        },
+        {
+          "id": 4334635192,
+          "title": "HTTP Error 301 when calling `sklearn.datasets.fetch_openml` with an empty cache folder.",
+          "created_at": "2026-04-27T09:28:51Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:datasets"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33867",
+          "is_pull_request": false
+        },
+        {
+          "id": 4332946132,
+          "title": "\u26a0\ufe0f CI failed on Unit tests Linux x86-64 pymin_conda_forge_openblas_ubuntu_2204 (last failure: Apr 27, 2026) \u26a0\ufe0f",
+          "created_at": "2026-04-27T03:48:06Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33858",
+          "is_pull_request": false
+        },
+        {
+          "id": 4321930509,
+          "title": "_MPLTreeExporter: ValueError when using custom colors",
+          "created_at": "2026-04-24T09:21:28Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33844",
+          "is_pull_request": false
+        },
+        {
+          "id": 4315383620,
+          "title": "DOI badge broken in README.rst (Zenodo SVG not rendering on GitHub)",
+          "created_at": "2026-04-23T10:49:14Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33840",
+          "is_pull_request": false
+        },
+        {
+          "id": 4309114229,
+          "title": "HTML display parameter/attribute links don't work with ` in the docstring type",
+          "created_at": "2026-04-22T12:50:41Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "frontend"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33830",
+          "is_pull_request": false
+        },
+        {
+          "id": 4309075079,
+          "title": "`pairwise_distances` throws warnings with array API classes",
+          "created_at": "2026-04-22T12:43:38Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33829",
+          "is_pull_request": false
+        },
+        {
+          "id": 4276378482,
+          "title": "BUG HTML Display not showing output features for `CountVectorizer`",
+          "created_at": "2026-04-16T14:25:33Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33772",
+          "is_pull_request": false
+        },
+        {
+          "id": 4271098962,
+          "title": "MLPClassifier with early_stopping=True crashes on string labels: \"ufunc 'isnan' not supported\"",
+          "created_at": "2026-04-15T19:10:17Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33760",
+          "is_pull_request": false
+        },
+        {
+          "id": 4270256501,
+          "title": "[BUG] BayesianRidge.predict with return_std=True fails to center test features, leading to incorrect predictive variance",
+          "created_at": "2026-04-15T16:25:04Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33757",
+          "is_pull_request": false
+        },
+        {
+          "id": 4226280524,
+          "title": "[Callbacks] VS Code debugger fails with `EOFError` during Callback instance creation",
+          "created_at": "2026-04-08T17:11:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33710",
+          "is_pull_request": false
+        },
+        {
+          "id": 4205488869,
+          "title": "bhjmbgjh",
+          "created_at": "2026-04-04T18:02:35Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33690",
+          "is_pull_request": false
+        },
+        {
+          "id": 4126831019,
+          "title": "Unnecessary y.ndim check and separate array transformations in _forest.py",
+          "created_at": "2026-03-24T10:31:41Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33621",
+          "is_pull_request": false
+        },
+        {
+          "id": 4126818852,
+          "title": "Duplicate check_array parameter usage in pairwise.py for X and Y inputs",
+          "created_at": "2026-03-24T10:29:30Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33620",
+          "is_pull_request": false
+        },
+        {
+          "id": 4126779848,
+          "title": "Redundant sparse checks in linear_model/_base.py causing unnecessary repeated issparse() calls",
+          "created_at": "2026-03-24T10:22:58Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33619",
+          "is_pull_request": false
+        },
+        {
+          "id": 4123053287,
+          "title": "Issue w/ latest nightlies: \"C function scipy.linalg.cython_blas.dasum has wrong signature\"",
+          "created_at": "2026-03-23T19:01:13Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Blocker"
+            },
+            {
+              "name": "cython"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33616",
+          "is_pull_request": false
+        },
+        {
+          "id": 4122367827,
+          "title": "Metadata Routing causes key error when remainder=\"passthrough\"",
+          "created_at": "2026-03-23T17:10:02Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33614",
+          "is_pull_request": false
+        },
+        {
+          "id": 4121704877,
+          "title": "Fitted attribute display can be misleading because of the default rounding",
+          "created_at": "2026-03-23T15:23:26Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33613",
+          "is_pull_request": false
+        },
+        {
+          "id": 4106833241,
+          "title": "LogisticRegression not working with array API classes from DPNP",
+          "created_at": "2026-03-20T09:32:18Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33590",
+          "is_pull_request": false
+        },
+        {
+          "id": 4099687902,
+          "title": "[BUG] Partial dependence integer-feature deprecation message references outdated version (1.9)",
+          "created_at": "2026-03-19T06:42:04Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33579",
+          "is_pull_request": false
+        },
+        {
+          "id": 4099666938,
+          "title": "[MNT] Remove deprecated `entropy` export from `sklearn.metrics.cluster`",
+          "created_at": "2026-03-19T06:37:38Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33578",
+          "is_pull_request": false
+        },
+        {
+          "id": 4077588215,
+          "title": "Potential NameError in _gpc.py when eval_gradient is False",
+          "created_at": "2026-03-15T04:38:40Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33542",
+          "is_pull_request": false
+        },
+        {
+          "id": 4077020623,
+          "title": "TruncatedSVD infinite wait state",
+          "created_at": "2026-03-14T23:16:45Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33541",
+          "is_pull_request": false
+        },
+        {
+          "id": 4076660852,
+          "title": "TunedThresholdClassifierCV (cv=float, refit=False) `best_threshold_` may not align with `estimator_` due to split reuse bug",
+          "created_at": "2026-03-14T20:27:37Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33540",
+          "is_pull_request": false
+        },
+        {
+          "id": 4058261171,
+          "title": "BUG Handle \"auxiliary\" array-like arguments paseed to metrics when array API is enabled",
+          "created_at": "2026-03-11T13:31:51Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33519",
+          "is_pull_request": false
+        },
+        {
+          "id": 4053076600,
+          "title": "BUG `ColumnTransformer` HTML display incorrect when all columns are transformed",
+          "created_at": "2026-03-10T17:06:26Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33513",
+          "is_pull_request": false
+        },
+        {
+          "id": 4052237468,
+          "title": "CI Non-deterministic failure for `sklearn/ensemble/tests/test_forest.py::test_missing_values_is_resilient` on some CI builds",
+          "created_at": "2026-03-10T14:35:13Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Build / CI"
+            },
+            {
+              "name": "Needs Triage"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33510",
+          "is_pull_request": false
+        },
+        {
+          "id": 4034483060,
+          "title": "TruncatedSVD Asking for power_iteration_normalizer `OR`, not `QR`",
+          "created_at": "2026-03-06T14:22:46Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33472",
+          "is_pull_request": false
+        },
+        {
+          "id": 4022486086,
+          "title": "DictionaryLearner dies with 'omp' only ",
+          "created_at": "2026-03-04T15:06:09Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33454",
+          "is_pull_request": false
+        },
+        {
+          "id": 4010513970,
+          "title": "SGDClassifier.partial_fit mutates the model when sample_weight is all zeros",
+          "created_at": "2026-03-02T10:34:43Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33436",
+          "is_pull_request": false
+        },
+        {
+          "id": 3982136357,
+          "title": "RidgeClassifier produces incorrect outputs when y has unsigned integer dtype due to LabelBinarizer",
+          "created_at": "2026-02-24T07:57:59Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "module:preprocessing"
+            },
+            {
+              "name": "Numerical Stability"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33390",
+          "is_pull_request": false
+        },
+        {
+          "id": 3979229163,
+          "title": "Check `column_or_1d` doesn't accept `StringDType` as `dtype` parameter  since Pandas 3",
+          "created_at": "2026-02-23T17:07:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Info"
+            },
+            {
+              "name": "Needs Triage"
+            },
+            {
+              "name": "autoclose"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33383",
+          "is_pull_request": false
+        },
+        {
+          "id": 3973802208,
+          "title": "Conversion of an array with ndim > 0 to a scalar deprecated",
+          "created_at": "2026-02-22T07:15:32Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33355",
+          "is_pull_request": false
+        },
+        {
+          "id": 3971233834,
+          "title": "Wrong chance_level plot in PrecisionRecallDisplay when using Pytorch data",
+          "created_at": "2026-02-21T03:43:11Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33342",
+          "is_pull_request": false
+        },
+        {
+          "id": 3957056246,
+          "title": "Logic for dtype of `.predict()` from classifiers is inconsistent",
+          "created_at": "2026-02-18T10:14:47Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33308",
+          "is_pull_request": false
+        },
+        {
+          "id": 3955052807,
+          "title": "MDS can return wrong number of components when using ClassicalMDS initialization",
+          "created_at": "2026-02-17T23:08:02Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33305",
+          "is_pull_request": false
+        },
+        {
+          "id": 3948595483,
+          "title": "BUG FeatureUnion's HTML Display incorrect when ColumnTransformer's remainder is a preprocessor",
+          "created_at": "2026-02-16T16:36:10Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "frontend"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33295",
+          "is_pull_request": false
+        },
+        {
+          "id": 3948220606,
+          "title": "`check_X_y` with list of dtypes converts polars 'X' incorrectly",
+          "created_at": "2026-02-16T15:06:56Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33294",
+          "is_pull_request": false
+        },
+        {
+          "id": 3941565943,
+          "title": "learning_curve  with exploit_incremental_learning=True fails to compute training scores when  sample_weight  is provided",
+          "created_at": "2026-02-14T14:45:52Z",
+          "labels": [
+            {
+              "name": "Bug"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33283",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=Documentation",
+      "fetched_at": "2026-09-22T01:21:24.427970+00:00",
+      "etag": "W/\"5878dfe75eada0f578555c3a486dcc7deb316a1b59dbf44fd5fe336d4f714562\"",
+      "poll_interval": 60,
+      "payload": [
+        {
+          "id": 5529366082,
+          "title": "DOC fix random_state description in RANSACRegressor",
+          "created_at": "2026-09-21T15:58:25Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/35008",
+          "is_pull_request": true
+        },
+        {
+          "id": 5516782885,
+          "title": "DOC: clarify that recursion method computes conditional partial dependence",
+          "created_at": "2026-09-20T08:42:31Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:inspection"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/35000",
+          "is_pull_request": true
+        },
+        {
+          "id": 5509731007,
+          "title": "DOC Fix MultiTaskLassoCV alphas default",
+          "created_at": "2026-09-19T11:19:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34997",
+          "is_pull_request": true
+        },
+        {
+          "id": 5503380208,
+          "title": "Incorrect random_state description in RANSACRegressor documentation",
+          "created_at": "2026-09-18T18:41:40Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34992",
+          "is_pull_request": false
+        },
+        {
+          "id": 5500528961,
+          "title": "Clarify parameter/hyperparameter terminology in the cross-validation workflow diagram",
+          "created_at": "2026-09-18T14:07:25Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34989",
+          "is_pull_request": false
+        },
+        {
+          "id": 5498299115,
+          "title": "DOC Clarify n_jobs in BaggingClassifier and BaggingRegressor",
+          "created_at": "2026-09-18T10:03:53Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34988",
+          "is_pull_request": true
+        },
+        {
+          "id": 5494082653,
+          "title": "DOC Fix array shape when weights are pruned",
+          "created_at": "2026-09-18T00:25:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34984",
+          "is_pull_request": true
+        },
+        {
+          "id": 5489145742,
+          "title": "PERF Vectorize adjacency matrix construction in plot_wikipedia_principal_eigenvector.py",
+          "created_at": "2026-09-17T15:02:05Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Build / CI"
+            },
+            {
+              "name": "Quick Review"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34982",
+          "is_pull_request": true
+        },
+        {
+          "id": 5486484503,
+          "title": "Clarify the random_state description in train_test_split documentation",
+          "created_at": "2026-09-17T11:04:10Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34979",
+          "is_pull_request": false
+        },
+        {
+          "id": 5479370909,
+          "title": "DOC clarify LassoCV preprocessing leakage",
+          "created_at": "2026-09-16T20:06:01Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "spam"
+            },
+            {
+              "name": "CI:Linter failure"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34974",
+          "is_pull_request": true
+        },
+        {
+          "id": 5470246886,
+          "title": "DOC clarify MLPClassifier fit and predict workflow",
+          "created_at": "2026-09-16T04:32:21Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "spam"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34969",
+          "is_pull_request": true
+        },
+        {
+          "id": 5447668584,
+          "title": "DOC/CI Speed up plot_wikipedia_principal_eigenvector.py example",
+          "created_at": "2026-09-14T09:34:21Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Build / CI"
+            },
+            {
+              "name": "Waiting for Second Reviewer"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34958",
+          "is_pull_request": true
+        },
+        {
+          "id": 5434168216,
+          "title": "DOC/CI Speed up plot_randomized_search.py example",
+          "created_at": "2026-09-12T15:17:09Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Build / CI"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34944",
+          "is_pull_request": true
+        },
+        {
+          "id": 5432889436,
+          "title": "DOC Add timings to doc build",
+          "created_at": "2026-09-12T11:01:49Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34940",
+          "is_pull_request": true
+        },
+        {
+          "id": 5431049539,
+          "title": "DOC add neural-trees to related projects",
+          "created_at": "2026-09-12T04:05:12Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34938",
+          "is_pull_request": true
+        },
+        {
+          "id": 5426232985,
+          "title": "DOC Fix examples comparing OpenML categorical labels to string literals",
+          "created_at": "2026-09-11T15:44:24Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34934",
+          "is_pull_request": true
+        },
+        {
+          "id": 5423223334,
+          "title": "MNT Add new members to the contributor experience team",
+          "created_at": "2026-09-11T10:24:59Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34931",
+          "is_pull_request": true
+        },
+        {
+          "id": 5420064501,
+          "title": "DOC Backport news update for 1.9.1 (#34924)",
+          "created_at": "2026-09-11T03:38:56Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "No Changelog Needed"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34927",
+          "is_pull_request": true
+        },
+        {
+          "id": 5413122401,
+          "title": "DOC Update news for 1.9.1",
+          "created_at": "2026-09-10T13:58:28Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Quick Review"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34924",
+          "is_pull_request": true
+        },
+        {
+          "id": 5410876225,
+          "title": "DOC fix MaxAbsScaler fit parameter descriptions",
+          "created_at": "2026-09-10T10:14:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:preprocessing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34922",
+          "is_pull_request": true
+        },
+        {
+          "id": 5410735629,
+          "title": "DOC Forward changelog from 1.9.X",
+          "created_at": "2026-09-10T10:00:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Quick Review"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34921",
+          "is_pull_request": true
+        },
+        {
+          "id": 5405137038,
+          "title": "DOC Mark dev index as orphan",
+          "created_at": "2026-09-09T21:54:14Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "To backport"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34916",
+          "is_pull_request": true
+        },
+        {
+          "id": 5404400568,
+          "title": "DOC Fix wikipedia principal eigenvector example references",
+          "created_at": "2026-09-09T20:28:36Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:utils"
+            },
+            {
+              "name": "To backport"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34915",
+          "is_pull_request": true
+        },
+        {
+          "id": 5398088158,
+          "title": "DOC Fix documented defaults that disagree with signatures",
+          "created_at": "2026-09-09T10:15:22Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:utils"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34913",
+          "is_pull_request": true
+        },
+        {
+          "id": 5388866112,
+          "title": "DOC Tweak git shortlog command for release contributors",
+          "created_at": "2026-09-08T15:45:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34906",
+          "is_pull_request": true
+        },
+        {
+          "id": 5374249682,
+          "title": "Documentation: Incorrect description of statistic computed by MaxAbsScaler.partial_fit",
+          "created_at": "2026-09-07T11:50:24Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:preprocessing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34900",
+          "is_pull_request": false
+        },
+        {
+          "id": 5373095853,
+          "title": "DOC Clarify primal and dual formulations in Ridge solvers",
+          "created_at": "2026-09-07T10:01:26Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34899",
+          "is_pull_request": true
+        },
+        {
+          "id": 5366770888,
+          "title": "DOC document the primal/dual switch in Ridge cholesky and sparse_cg solvers",
+          "created_at": "2026-09-06T18:13:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34893",
+          "is_pull_request": true
+        },
+        {
+          "id": 5339010460,
+          "title": "SelectFromModel's `prefit` fails unless fit is called when set_output(transform=\"pandas\")",
+          "created_at": "2026-09-03T16:31:58Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34880",
+          "is_pull_request": false
+        },
+        {
+          "id": 5335854192,
+          "title": "DOC Correct the description of `tol` in the k-means estimators",
+          "created_at": "2026-09-03T11:15:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:cluster"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34879",
+          "is_pull_request": true
+        },
+        {
+          "id": 5335488528,
+          "title": "DOC Clarify sample_weight semantics in forest split criteria",
+          "created_at": "2026-09-03T10:38:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            },
+            {
+              "name": "linked issue not ready"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34877",
+          "is_pull_request": true
+        },
+        {
+          "id": 5310519153,
+          "title": "missing import of `numpy`",
+          "created_at": "2026-09-01T10:06:42Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34863",
+          "is_pull_request": false
+        },
+        {
+          "id": 5298234149,
+          "title": "DOC Add example for implementing a custom GroupTimeSeriesSplit",
+          "created_at": "2026-08-31T08:44:13Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34852",
+          "is_pull_request": true
+        },
+        {
+          "id": 5296790099,
+          "title": "DOC Add nightly install link to dev warning banner",
+          "created_at": "2026-08-31T05:30:24Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "No Changelog Needed"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34850",
+          "is_pull_request": true
+        },
+        {
+          "id": 5293383355,
+          "title": "BIC-based model selection in plot_gmm_selection.py silently picks the wrong model under anisotropy severe enough to break its own initialization",
+          "created_at": "2026-08-30T17:20:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "module:mixture"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34845",
+          "is_pull_request": false
+        },
+        {
+          "id": 5288922892,
+          "title": "DOC add example: anisotropy severe enough to defeat GaussianMixture",
+          "created_at": "2026-08-29T21:25:44Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "CI:Linter failure"
+            },
+            {
+              "name": "linked issue not ready"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34843",
+          "is_pull_request": true
+        },
+        {
+          "id": 5288921960,
+          "title": "GaussianMixture is not a universal fix for anisotropy \u2014 plot_kmeans_assumptions.py doesn't show the case where whitening is needed too",
+          "created_at": "2026-08-29T21:25:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:cluster"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34842",
+          "is_pull_request": false
+        },
+        {
+          "id": 5278587538,
+          "title": "DOC Document that HGBT min_samples_leaf ignores sample_weight",
+          "created_at": "2026-08-28T13:16:07Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            },
+            {
+              "name": "module:utils"
+            },
+            {
+              "name": "No Changelog Needed"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34838",
+          "is_pull_request": true
+        },
+        {
+          "id": 5268909405,
+          "title": "DOC Add links to metadata routing user guide",
+          "created_at": "2026-08-27T14:50:19Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "No Changelog Needed"
+            },
+            {
+              "name": "Quick Review"
+            },
+            {
+              "name": "Metadata Routing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34826",
+          "is_pull_request": true
+        },
+        {
+          "id": 5267755352,
+          "title": "Usage of sample weights in `min_impurity_decrease` in RandomForest*",
+          "created_at": "2026-08-27T12:55:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34825",
+          "is_pull_request": false
+        },
+        {
+          "id": 5258810366,
+          "title": "Methodology details for KMeans not described and no reference given",
+          "created_at": "2026-08-26T15:32:05Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34820",
+          "is_pull_request": false
+        },
+        {
+          "id": 5247977640,
+          "title": "DOC Remove redundant paragraph about opening issues",
+          "created_at": "2026-08-25T16:05:33Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Quick Review"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34814",
+          "is_pull_request": true
+        },
+        {
+          "id": 5231910441,
+          "title": "Dual problem formulation approach is not mentioned in Ridge solvers",
+          "created_at": "2026-08-24T06:50:45Z",
+          "labels": [
+            {
+              "name": "Easy"
+            },
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34807",
+          "is_pull_request": false
+        },
+        {
+          "id": 5230824062,
+          "title": "DOC add parameter description in `_array_api_for_tests`",
+          "created_at": "2026-08-24T03:36:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:utils"
+            },
+            {
+              "name": "Quick Review"
+            },
+            {
+              "name": "Waiting for Second Reviewer"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34801",
+          "is_pull_request": true
+        },
+        {
+          "id": 5229296704,
+          "title": "DOC Clarify in-place modification for copy=False in mutual_info_regression",
+          "created_at": "2026-08-23T21:57:29Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:feature_selection"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34800",
+          "is_pull_request": true
+        },
+        {
+          "id": 5219723524,
+          "title": "DOC clarify random_state recommendations",
+          "created_at": "2026-08-22T02:47:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34796",
+          "is_pull_request": true
+        },
+        {
+          "id": 5204897694,
+          "title": "DOC Add recommendation summary table for random_state usage",
+          "created_at": "2026-08-20T15:06:44Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34784",
+          "is_pull_request": true
+        },
+        {
+          "id": 5194668190,
+          "title": "DOC Add Intel as a financial partner",
+          "created_at": "2026-08-19T16:04:13Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34782",
+          "is_pull_request": true
+        },
+        {
+          "id": 5182980431,
+          "title": "DOC Fix docstring defaults that do not match the signature",
+          "created_at": "2026-08-18T14:34:28Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34772",
+          "is_pull_request": true
+        },
+        {
+          "id": 5182170938,
+          "title": "docs: DOC: Add table to Recommendation Summary section in Common Pitfalls",
+          "created_at": "2026-08-18T13:12:06Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34770",
+          "is_pull_request": true
+        },
+        {
+          "id": 5179132281,
+          "title": "DOC Fix spelling error raised by CI `codespell`",
+          "created_at": "2026-08-18T07:11:14Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Build / CI"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34766",
+          "is_pull_request": true
+        },
+        {
+          "id": 5165387252,
+          "title": "DOC: Fix typo in doc/modules/clustering.rst",
+          "created_at": "2026-08-16T17:11:49Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34757",
+          "is_pull_request": true
+        },
+        {
+          "id": 5164090278,
+          "title": "DOC Clarify copy parameter behavior in mutual_info functions",
+          "created_at": "2026-08-16T11:43:46Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:feature_selection"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34755",
+          "is_pull_request": true
+        },
+        {
+          "id": 5156648250,
+          "title": "DOC add BayesHalvingSearchCV and PatternSearchCV to related_projects.rst",
+          "created_at": "2026-08-15T00:17:02Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34750",
+          "is_pull_request": true
+        },
+        {
+          "id": 5137052576,
+          "title": "DOC Fix parameter names in private function docstrings",
+          "created_at": "2026-08-13T02:07:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34741",
+          "is_pull_request": true
+        },
+        {
+          "id": 5109910557,
+          "title": "DOC Document BayesianRidge/ARD scale sensitivity",
+          "created_at": "2026-08-10T12:10:06Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34712",
+          "is_pull_request": true
+        },
+        {
+          "id": 5109178624,
+          "title": "DOC: Mention torch XPU instability in array API docs",
+          "created_at": "2026-08-10T10:34:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "spam"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34699",
+          "is_pull_request": true
+        },
+        {
+          "id": 5109174535,
+          "title": "DOC: Add table to Recommendation Summary in Common Pitfalls",
+          "created_at": "2026-08-10T10:33:46Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "spam"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34698",
+          "is_pull_request": true
+        },
+        {
+          "id": 5098099301,
+          "title": "DOC Mention PyTorch XPU instability and latest version recommendation (#34648)",
+          "created_at": "2026-08-08T15:13:14Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34682",
+          "is_pull_request": true
+        },
+        {
+          "id": 5096012215,
+          "title": "DOC: Clarify max_categories tie-breaking behavior",
+          "created_at": "2026-08-08T05:19:08Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:preprocessing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34679",
+          "is_pull_request": true
+        },
+        {
+          "id": 5082425900,
+          "title": "Document tie-breaking behavior for max_categories in OneHotEncoder/OrdinalEncoder infrequent category grouping",
+          "created_at": "2026-08-06T14:51:19Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34669",
+          "is_pull_request": false
+        },
+        {
+          "id": 5079497566,
+          "title": "DOC Add gallery example evaluating imbalanced PR curves (#34615)",
+          "created_at": "2026-08-06T09:01:57Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34662",
+          "is_pull_request": true
+        },
+        {
+          "id": 5073662049,
+          "title": "DOC Update RidgeClassifier and RidgeClassifierCV coef_ shape documentation",
+          "created_at": "2026-08-05T17:43:54Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34657",
+          "is_pull_request": true
+        },
+        {
+          "id": 5070779184,
+          "title": "docs: DOC: Array API - mention torch XPU is a bit unstable",
+          "created_at": "2026-08-05T12:21:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34655",
+          "is_pull_request": true
+        },
+        {
+          "id": 5063124295,
+          "title": "DOC: Array API - mention torch XPU is a bit unstable",
+          "created_at": "2026-08-04T17:19:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34648",
+          "is_pull_request": false
+        },
+        {
+          "id": 5056021702,
+          "title": "DOC Improve jaccard score docstring",
+          "created_at": "2026-08-04T02:26:31Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:metrics"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34645",
+          "is_pull_request": true
+        },
+        {
+          "id": 5048875559,
+          "title": "DOC: Add table to Recommendation Summary section in Common Pitfalls",
+          "created_at": "2026-08-03T10:36:25Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34641",
+          "is_pull_request": false
+        },
+        {
+          "id": 5048673312,
+          "title": "DOC: Fixes broken link to scikit-learn-intelex documentation in install.rst page",
+          "created_at": "2026-08-03T10:10:15Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34640",
+          "is_pull_request": true
+        },
+        {
+          "id": 5039079224,
+          "title": "DOC: Update copy parameter description in mutual_info_regression",
+          "created_at": "2026-08-01T21:18:18Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:feature_selection"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34630",
+          "is_pull_request": true
+        },
+        {
+          "id": 5030031350,
+          "title": "DOC: Proposal for FinTech payment fraud example evaluating imbalanced PR curves",
+          "created_at": "2026-07-31T13:32:12Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34615",
+          "is_pull_request": false
+        },
+        {
+          "id": 5028053012,
+          "title": "DOC Add example of a productive code review to developer guide (#34531)",
+          "created_at": "2026-07-31T08:54:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34612",
+          "is_pull_request": true
+        },
+        {
+          "id": 5028012008,
+          "title": "DOC clarify GradientBoostingRegressor estimators_ shape",
+          "created_at": "2026-07-31T08:48:34Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34611",
+          "is_pull_request": true
+        },
+        {
+          "id": 5010442345,
+          "title": "DOC: Add payment fraud example to precision_recall_curve",
+          "created_at": "2026-07-29T14:35:17Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:metrics"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34600",
+          "is_pull_request": true
+        },
+        {
+          "id": 5010111925,
+          "title": "DOC: add payment fraud FinTech example to precision_recall_curve",
+          "created_at": "2026-07-29T14:01:04Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:metrics"
+            },
+            {
+              "name": "CI:Linter failure"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34598",
+          "is_pull_request": true
+        },
+        {
+          "id": 5009896414,
+          "title": "DOC fix overfit plot in plot_underfitting_overfitting.py",
+          "created_at": "2026-07-29T13:38:53Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34597",
+          "is_pull_request": true
+        },
+        {
+          "id": 5009444784,
+          "title": "Explicit documentation / contract for free-threading",
+          "created_at": "2026-07-29T12:52:14Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Investigation"
+            },
+            {
+              "name": "free-threading"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34596",
+          "is_pull_request": false
+        },
+        {
+          "id": 5007001913,
+          "title": "DOC: inconsistent estimators_ shape documentation in GradientBoostingClassifier",
+          "created_at": "2026-07-29T08:14:03Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            },
+            {
+              "name": "CI:Linter failure"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34592",
+          "is_pull_request": true
+        },
+        {
+          "id": 4994247283,
+          "title": "DOC stabilize SpectralCoclustering doctest",
+          "created_at": "2026-07-28T02:28:38Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:cluster"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34587",
+          "is_pull_request": true
+        },
+        {
+          "id": 4958791122,
+          "title": "DOC refactor examples/ensemble/plot_forest_iris.py to use DecisionBoundaryDisplay",
+          "created_at": "2026-07-23T12:27:11Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34556",
+          "is_pull_request": true
+        },
+        {
+          "id": 4957116840,
+          "title": "DOC: clarify categorical missing docs (HGB & trees)",
+          "created_at": "2026-07-23T08:49:57Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            },
+            {
+              "name": "module:tree"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34553",
+          "is_pull_request": true
+        },
+        {
+          "id": 4951333821,
+          "title": "DOC Fix typo 'too close the the' to 'too close to the' in api.css",
+          "created_at": "2026-07-22T17:07:41Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "spam"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34548",
+          "is_pull_request": true
+        },
+        {
+          "id": 4944016688,
+          "title": "[DOC] update docstring for orthogonal_mp",
+          "created_at": "2026-07-21T23:45:31Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34539",
+          "is_pull_request": true
+        },
+        {
+          "id": 4936886018,
+          "title": "DOC Update Pyodide to 314.0.4 in JupyterLite deployment",
+          "created_at": "2026-07-21T08:23:54Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34534",
+          "is_pull_request": true
+        },
+        {
+          "id": 4932243623,
+          "title": "DOC: fix estimators_ shape doc in GradientBoostingRegressor",
+          "created_at": "2026-07-20T19:15:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:ensemble"
+            },
+            {
+              "name": "autoclose"
+            },
+            {
+              "name": "CI:Linter failure"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34530",
+          "is_pull_request": true
+        },
+        {
+          "id": 4928912210,
+          "title": "DOC Fix seaborn warning",
+          "created_at": "2026-07-20T12:26:39Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:utils"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34524",
+          "is_pull_request": true
+        },
+        {
+          "id": 4925026086,
+          "title": "Doc CI failure due to seaborn bug",
+          "created_at": "2026-07-20T01:01:51Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Build / CI"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34521",
+          "is_pull_request": false
+        },
+        {
+          "id": 4923088601,
+          "title": "DOC demonstrate partial_fit batching in IncrementalPCA example",
+          "created_at": "2026-07-19T14:38:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Sprint"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34518",
+          "is_pull_request": true
+        },
+        {
+          "id": 4923085184,
+          "title": "DOC Rework decision threshold tuning example around precision-recall tradeoffs",
+          "created_at": "2026-07-19T14:37:23Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Sprint"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34517",
+          "is_pull_request": true
+        },
+        {
+          "id": 4922187811,
+          "title": "DOC Refactor plot_kmeans_digits.py to use DecisionBoundaryDisplay",
+          "created_at": "2026-07-19T09:46:11Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Sprint"
+            },
+            {
+              "name": "No Changelog Needed"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34515",
+          "is_pull_request": true
+        },
+        {
+          "id": 4917893074,
+          "title": "DOC - add decision boundary visualization to plot_gpc_iris",
+          "created_at": "2026-07-18T10:36:33Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Sprint"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34509",
+          "is_pull_request": true
+        },
+        {
+          "id": 4917658254,
+          "title": "DOC Improve documentation of `safe_mask`",
+          "created_at": "2026-07-18T09:18:50Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:utils"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34508",
+          "is_pull_request": true
+        },
+        {
+          "id": 4916986772,
+          "title": "DOC add missing precompute incompatibility note to Lasso sample_weight",
+          "created_at": "2026-07-18T06:02:58Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34503",
+          "is_pull_request": true
+        },
+        {
+          "id": 4904071257,
+          "title": "DOC Fix broken links",
+          "created_at": "2026-07-16T16:32:11Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Quick Review"
+            },
+            {
+              "name": "Waiting for Second Reviewer"
+            },
+            {
+              "name": "good first PR to review"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34491",
+          "is_pull_request": true
+        },
+        {
+          "id": 4903776326,
+          "title": "DOC Clarify right to contribute and paid-platform disclosure",
+          "created_at": "2026-07-16T15:53:25Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Waiting for Second Reviewer"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34490",
+          "is_pull_request": true
+        },
+        {
+          "id": 4899659642,
+          "title": "DOC Fix orthogonal_mp docstring math formatting",
+          "created_at": "2026-07-16T07:14:21Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34488",
+          "is_pull_request": true
+        },
+        {
+          "id": 4894996910,
+          "title": "DOC Fix HTML in `contributing.rst` page",
+          "created_at": "2026-07-15T17:45:45Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34485",
+          "is_pull_request": true
+        },
+        {
+          "id": 4874342705,
+          "title": "DOC Rephrase README section to include institutional support",
+          "created_at": "2026-07-13T13:58:52Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34469",
+          "is_pull_request": true
+        },
+        {
+          "id": 4861593690,
+          "title": "DOC clarify n_iter_ can be 0 when warm_start=True in LogisticRegression",
+          "created_at": "2026-07-11T09:24:38Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "module:linear_model"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/pull/34460",
+          "is_pull_request": true
+        },
+        {
+          "id": 4861568662,
+          "title": "DOC: clarify n_iter_ can be 0 when warm_start=True in LogisticRegression",
+          "created_at": "2026-07-11T09:17:21Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34459",
+          "is_pull_request": false
+        },
+        {
+          "id": 4848969082,
+          "title": "[DOC] Improve docstring for `orthogonal_mp`",
+          "created_at": "2026-07-09T18:43:10Z",
+          "labels": [
+            {
+              "name": "Documentation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34454",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=New%20Feature",
+      "fetched_at": "2026-09-22T01:21:25.742273+00:00",
+      "etag": "W/\"6760b2c6d4649307538d1cc61a14974bdf2668c4df1d8def6aa59cd02725b323\"",
+      "poll_interval": 60,
+      "payload": [
+        {
+          "id": 5445807821,
+          "title": "Support infinite values in DecisionTree/RandomForest/ExtraTrees (now that NaN is supported)",
+          "created_at": "2026-09-14T06:07:39Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34956",
+          "is_pull_request": false
+        },
+        {
+          "id": 5434190269,
+          "title": "Add Population Stability Index (PSI) as a model/data drift metric",
+          "created_at": "2026-09-12T15:20:55Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34945",
+          "is_pull_request": false
+        },
+        {
+          "id": 5434157024,
+          "title": "Add Information Value (IV) / Weight-of-Evidence binning as metric and feature-selection",
+          "created_at": "2026-09-12T15:14:56Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34943",
+          "is_pull_request": false
+        },
+        {
+          "id": 5193309542,
+          "title": "Adding Intel as Financial partner",
+          "created_at": "2026-08-19T13:43:40Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34781",
+          "is_pull_request": false
+        },
+        {
+          "id": 5088382969,
+          "title": "PCA does not discard singular values equal to zero",
+          "created_at": "2026-08-07T08:34:06Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34672",
+          "is_pull_request": false
+        },
+        {
+          "id": 5076802184,
+          "title": "adding weights to the calculation for Ledoit Wolf",
+          "created_at": "2026-08-06T01:53:06Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34660",
+          "is_pull_request": false
+        },
+        {
+          "id": 5063457415,
+          "title": "Add option to drop infrequent categories in OneHotEncoder",
+          "created_at": "2026-08-04T18:02:54Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "RFC"
+            },
+            {
+              "name": "module:preprocessing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34649",
+          "is_pull_request": false
+        },
+        {
+          "id": 5038393177,
+          "title": "Support custom per-class decision thresholds and a rejection option in `sklearn.metrics.confusion_matrix` and `sklearn.metrics.ConfusionMatrixDisplay`.",
+          "created_at": "2026-08-01T18:23:17Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Closing candidate"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34628",
+          "is_pull_request": false
+        },
+        {
+          "id": 5032248937,
+          "title": "Perf: `PCA(n_components=\"mle\")` uses O(d^3) version of Minka's algorithm when O(d^2) exists",
+          "created_at": "2026-07-31T18:16:16Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34618",
+          "is_pull_request": false
+        },
+        {
+          "id": 5007877783,
+          "title": "Allow TunedThresholdClassifierCV to assess threshold variability and examine all possible thresholds",
+          "created_at": "2026-07-29T09:53:40Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34595",
+          "is_pull_request": false
+        },
+        {
+          "id": 4980880231,
+          "title": "Optional return of reduced distances in neighbors.Tree.query",
+          "created_at": "2026-07-26T13:57:59Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34571",
+          "is_pull_request": false
+        },
+        {
+          "id": 4933823008,
+          "title": "Add collapse option for right-hand \"On this page\" sidebar",
+          "created_at": "2026-07-20T23:18:08Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34532",
+          "is_pull_request": false
+        },
+        {
+          "id": 4804723262,
+          "title": "Separate control over response surfaces and class boundaries in `DecisionBoundaryDisplay`",
+          "created_at": "2026-07-03T15:43:11Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34431",
+          "is_pull_request": false
+        },
+        {
+          "id": 4685909466,
+          "title": "Creating pipelines with default arguments for methods in steps",
+          "created_at": "2026-06-17T18:13:48Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Metadata Routing"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34327",
+          "is_pull_request": false
+        },
+        {
+          "id": 4668477328,
+          "title": "Speed up histogram bin creation in `sklearn.ensemble._hist_gradient_boosting.binning`",
+          "created_at": "2026-06-15T20:02:45Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34304",
+          "is_pull_request": false
+        },
+        {
+          "id": 4654293390,
+          "title": "Publish Pyodide/WASM (pyemscripten) wheels to PyPI via PEP 783",
+          "created_at": "2026-06-13T04:07:41Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34278",
+          "is_pull_request": false
+        },
+        {
+          "id": 4649562200,
+          "title": "Add an option to use Latin Hypercube Sampling to `RandomizedSearchCV` and `HalvingSearchCV`",
+          "created_at": "2026-06-12T13:21:51Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs work"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34268",
+          "is_pull_request": false
+        },
+        {
+          "id": 4623360589,
+          "title": "Deprecate stats and number of calls tracking in KDTree/BallTree (or see if there's a way to speed-up, if useful)",
+          "created_at": "2026-06-09T15:30:58Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34232",
+          "is_pull_request": false
+        },
+        {
+          "id": 4535041730,
+          "title": "Callbacks are not left in estimator objects",
+          "created_at": "2026-05-27T19:11:41Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Callbacks"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34140",
+          "is_pull_request": false
+        },
+        {
+          "id": 4524591176,
+          "title": "ENH: L1 ball  Centroids Projection in MiniBatchKMeans (Sculley, 2010)",
+          "created_at": "2026-05-26T13:41:44Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "module:cluster"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34125",
+          "is_pull_request": false
+        },
+        {
+          "id": 4495117087,
+          "title": "Add a warning whenever `metrics.confusion_matrix` is called with non-numeric values but no labels provided",
+          "created_at": "2026-05-21T13:55:09Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34076",
+          "is_pull_request": false
+        },
+        {
+          "id": 4494972775,
+          "title": "allow to skip some attributes from the HTML representation of an estimator",
+          "created_at": "2026-05-21T13:35:08Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "frontend"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34075",
+          "is_pull_request": false
+        },
+        {
+          "id": 4489646034,
+          "title": "Opt-in to using thread pools for all parallelism (or almost all)",
+          "created_at": "2026-05-20T20:20:11Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "free-threading"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34071",
+          "is_pull_request": false
+        },
+        {
+          "id": 4489005857,
+          "title": "Prevent CPU over-subscription when using thread pools, similar to what process pools do",
+          "created_at": "2026-05-20T18:37:17Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "free-threading"
+            },
+            {
+              "name": "Parallelism and scalability"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34070",
+          "is_pull_request": false
+        },
+        {
+          "id": 4486777676,
+          "title": "Pre-commit hook does not modify files that need linting",
+          "created_at": "2026-05-20T13:18:39Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34067",
+          "is_pull_request": false
+        },
+        {
+          "id": 4429756524,
+          "title": "Make the _parameter_constraint attribute public and mandatory for every model",
+          "created_at": "2026-05-12T14:01:23Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "Developer API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/34001",
+          "is_pull_request": false
+        },
+        {
+          "id": 4416270308,
+          "title": "Native categorical splitting enhancements in DecisionTree, ExtraTree, RandomForest and ExtraTrees",
+          "created_at": "2026-05-10T17:10:50Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Hard"
+            },
+            {
+              "name": "module:tree"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33965",
+          "is_pull_request": false
+        },
+        {
+          "id": 4413959704,
+          "title": "[FEA] Add Ambiguity Range metric for safety-critical classification",
+          "created_at": "2026-05-09T22:04:18Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33963",
+          "is_pull_request": false
+        },
+        {
+          "id": 4363538430,
+          "title": "`partial_fit` for `Ridge`",
+          "created_at": "2026-05-01T08:24:52Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33914",
+          "is_pull_request": false
+        },
+        {
+          "id": 4349483491,
+          "title": "Add 'quantile' strategy to `calibration_curve`",
+          "created_at": "2026-04-29T09:47:53Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33890",
+          "is_pull_request": false
+        },
+        {
+          "id": 4292329528,
+          "title": "ENH: Add confusion_matrix_diff to compare multiple models against a baseline",
+          "created_at": "2026-04-19T23:40:44Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Info"
+            },
+            {
+              "name": "Closing candidate"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33800",
+          "is_pull_request": false
+        },
+        {
+          "id": 4166611304,
+          "title": "Add 'auto' option to `n_bins` in `calibration_curve`",
+          "created_at": "2026-03-30T02:31:48Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33658",
+          "is_pull_request": false
+        },
+        {
+          "id": 4135464271,
+          "title": "ENH: Add FARC-HD (Fuzzy Association Rule-based Classification Model for High-Dimensional problems)",
+          "created_at": "2026-03-25T13:31:00Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33632",
+          "is_pull_request": false
+        },
+        {
+          "id": 4104180138,
+          "title": "ENH Add argument to `SelectFwe` to choose between Bonferroni and Holm method",
+          "created_at": "2026-03-19T20:56:34Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33585",
+          "is_pull_request": false
+        },
+        {
+          "id": 4092041818,
+          "title": "Improve utils._indexing.py error messaging for missing columns",
+          "created_at": "2026-03-18T01:02:14Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33569",
+          "is_pull_request": false
+        },
+        {
+          "id": 4082826266,
+          "title": "Add multi-threading to DecisionTreeClassifier and DecisionTreeRegressor",
+          "created_at": "2026-03-16T14:27:09Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33559",
+          "is_pull_request": false
+        },
+        {
+          "id": 4082790345,
+          "title": "Add  partial_fit to DecisionTreeClassifier and DecisionTreeRegressor",
+          "created_at": "2026-03-16T14:21:17Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33558",
+          "is_pull_request": false
+        },
+        {
+          "id": 4081663845,
+          "title": "chi2 feature selection is symmetric and cannot measure directional predictive power for classification",
+          "created_at": "2026-03-16T10:39:55Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33554",
+          "is_pull_request": false
+        },
+        {
+          "id": 4058527769,
+          "title": "[Feature Request] RollingTimeSeriesSplit: Fixed-window cross-validation with right alignment",
+          "created_at": "2026-03-11T14:20:14Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33520",
+          "is_pull_request": false
+        },
+        {
+          "id": 4056668461,
+          "title": "ENH: Add misspecification-aware Bayesian regression to sklearn.linear_model",
+          "created_at": "2026-03-11T08:21:31Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33514",
+          "is_pull_request": false
+        },
+        {
+          "id": 4017963813,
+          "title": "ENH: Add FrequencyEncoder to sklearn.preprocessing",
+          "created_at": "2026-03-03T17:49:50Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33446",
+          "is_pull_request": false
+        },
+        {
+          "id": 3998497462,
+          "title": "Improve confusion matrix for multi-label classification tasks",
+          "created_at": "2026-02-27T01:02:04Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33416",
+          "is_pull_request": false
+        },
+        {
+          "id": 3994754948,
+          "title": "RFC add Gradient Boosting with any estimator, deprecate AdaBoost",
+          "created_at": "2026-02-26T10:46:15Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            },
+            {
+              "name": "RFC"
+            },
+            {
+              "name": "module:ensemble"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33412",
+          "is_pull_request": false
+        },
+        {
+          "id": 3946944987,
+          "title": "Variational Gaussian Process",
+          "created_at": "2026-02-16T10:06:13Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33292",
+          "is_pull_request": false
+        },
+        {
+          "id": 3929106528,
+          "title": "\ud83d\ude80 Feature Request: Integrate `RkCNN` (Random k Conditional Nearest Neighbor) into scikit-learn-compatible API",
+          "created_at": "2026-02-11T23:15:40Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33265",
+          "is_pull_request": false
+        },
+        {
+          "id": 3895341314,
+          "title": "TimeSeries Split: Allow for larger test_size than n_samples // (n_splits + 1)",
+          "created_at": "2026-02-04T08:38:49Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33206",
+          "is_pull_request": false
+        },
+        {
+          "id": 3837589606,
+          "title": "Support clusterers in `DecisionBoundaryDisplay`",
+          "created_at": "2026-01-21T10:27:57Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33119",
+          "is_pull_request": false
+        },
+        {
+          "id": 3821103720,
+          "title": "Add `show_data=False` option to `DecisionBoundaryDisplay.from_estimator`",
+          "created_at": "2026-01-16T09:12:12Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33094",
+          "is_pull_request": false
+        },
+        {
+          "id": 3805377004,
+          "title": "Add built-in utilities for high-dimensional biological data preprocessing (gene expression, omics data)",
+          "created_at": "2026-01-12T17:58:58Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33059",
+          "is_pull_request": false
+        },
+        {
+          "id": 3800307296,
+          "title": "Online Quantile Approximation",
+          "created_at": "2026-01-10T20:26:26Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/33042",
+          "is_pull_request": false
+        },
+        {
+          "id": 3763308316,
+          "title": "Add Net Benefit for classifications metrics",
+          "created_at": "2025-12-26T11:25:56Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32952",
+          "is_pull_request": false
+        },
+        {
+          "id": 3709728596,
+          "title": "Classwise (group) L21 penalty for multinomial LogisticRegression",
+          "created_at": "2025-12-09T08:11:14Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32869",
+          "is_pull_request": false
+        },
+        {
+          "id": 3704475289,
+          "title": "Chain classifier customizability",
+          "created_at": "2025-12-08T03:20:50Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32855",
+          "is_pull_request": false
+        },
+        {
+          "id": 3654569919,
+          "title": "Add class_weight support to Naive Bayes models (GaussianNB, MultinomialNB, BernoulliNB)",
+          "created_at": "2025-11-22T11:23:08Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32763",
+          "is_pull_request": false
+        },
+        {
+          "id": 3625964326,
+          "title": "Add Apriori Algorithm for Association Rule Mining",
+          "created_at": "2025-11-14T14:54:19Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Info"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32712",
+          "is_pull_request": false
+        },
+        {
+          "id": 3603269688,
+          "title": "Feature Request: Add explained variance ratios for X and Y to `PLSRegression`",
+          "created_at": "2025-11-08T09:40:11Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32675",
+          "is_pull_request": false
+        },
+        {
+          "id": 3574903601,
+          "title": "ENH: Add overlay_dx_score metric for regression evaluation",
+          "created_at": "2025-10-31T13:11:11Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Info"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32621",
+          "is_pull_request": false
+        },
+        {
+          "id": 3558997774,
+          "title": "Add shrinkage support with `solver=\"svd\"` in `LinearDiscriminantAnalysis` and `QuadraticDiscriminantAnalysis`",
+          "created_at": "2025-10-27T23:12:11Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32590",
+          "is_pull_request": false
+        },
+        {
+          "id": 3551901615,
+          "title": "Add Geometric Mixture Classifier (GMC)",
+          "created_at": "2025-10-25T05:58:01Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32570",
+          "is_pull_request": false
+        },
+        {
+          "id": 3488025032,
+          "title": "Make `make_classification` draw from the same distribution regardless of `n_samples`",
+          "created_at": "2025-10-06T16:12:24Z",
+          "labels": [
+            {
+              "name": "Bug"
+            },
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "module:datasets"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32405",
+          "is_pull_request": false
+        },
+        {
+          "id": 3485180426,
+          "title": "[FEAT] Enhancing decision trees",
+          "created_at": "2025-10-05T21:21:06Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32385",
+          "is_pull_request": false
+        },
+        {
+          "id": 3484628520,
+          "title": "RFC: Add deflation process to PLSSVD",
+          "created_at": "2025-10-05T09:53:59Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32379",
+          "is_pull_request": false
+        },
+        {
+          "id": 3422848693,
+          "title": "[FEAT] Let `importance_getter` from RFE accept test data for permutation importance",
+          "created_at": "2025-09-16T15:51:29Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "module:inspection"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32201",
+          "is_pull_request": false
+        },
+        {
+          "id": 3406823030,
+          "title": "Add an option to OrdinalEncoder to sort encoding by decreasing frequencies",
+          "created_at": "2025-09-11T14:27:27Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32161",
+          "is_pull_request": false
+        },
+        {
+          "id": 3403124390,
+          "title": "Allow `categories` parameter in `OrdinalEncoder` to accept a dict of column names \u2192 categories",
+          "created_at": "2025-09-10T16:38:59Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32152",
+          "is_pull_request": false
+        },
+        {
+          "id": 3387482723,
+          "title": "[ENH] Adding KModes and KPrototypes clustering algorithms",
+          "created_at": "2025-09-05T13:02:23Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "module:cluster"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32115",
+          "is_pull_request": false
+        },
+        {
+          "id": 3371870954,
+          "title": "Enhance the warning message for metadata default value change",
+          "created_at": "2025-09-01T09:03:14Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32067",
+          "is_pull_request": false
+        },
+        {
+          "id": 3366821303,
+          "title": "Leiden Clustering",
+          "created_at": "2025-08-29T13:04:59Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32048",
+          "is_pull_request": false
+        },
+        {
+          "id": 3360365350,
+          "title": "Setting weights on items when passing list of dicts to RandomizedSearchCV",
+          "created_at": "2025-08-27T18:06:56Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/32032",
+          "is_pull_request": false
+        },
+        {
+          "id": 3343518578,
+          "title": "Implementing Divisive Analysis",
+          "created_at": "2025-08-21T23:31:50Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Hard"
+            },
+            {
+              "name": "module:cluster"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31989",
+          "is_pull_request": false
+        },
+        {
+          "id": 3310386770,
+          "title": "Add a better implementation of Latent Dirichlet Allocation",
+          "created_at": "2025-08-11T14:43:45Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31925",
+          "is_pull_request": false
+        },
+        {
+          "id": 3305414310,
+          "title": "QuantileTransformer is incredibly slow",
+          "created_at": "2025-08-08T23:10:38Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31901",
+          "is_pull_request": false
+        },
+        {
+          "id": 3304361240,
+          "title": "Add `covariance_estimator` to `QuadraticDiscriminantAnalysis`?",
+          "created_at": "2025-08-08T15:03:02Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31899",
+          "is_pull_request": false
+        },
+        {
+          "id": 3286781156,
+          "title": "Proposal to Contribute Uncertainty Quantification via Aleatoric/Epistemic Decomposition to scikit-learn",
+          "created_at": "2025-08-03T07:09:08Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31871",
+          "is_pull_request": false
+        },
+        {
+          "id": 3286684429,
+          "title": "Faster algorithm for KMeans",
+          "created_at": "2025-08-03T05:18:33Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31870",
+          "is_pull_request": false
+        },
+        {
+          "id": 3285800155,
+          "title": "Array API support for CalibratedClassifierCV",
+          "created_at": "2025-08-02T10:02:10Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "help wanted"
+            },
+            {
+              "name": "Hard"
+            },
+            {
+              "name": "module:calibration"
+            },
+            {
+              "name": "Array API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31869",
+          "is_pull_request": false
+        },
+        {
+          "id": 3271032401,
+          "title": "Extend make file to inlcude initial setup installations.",
+          "created_at": "2025-07-28T19:02:54Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31849",
+          "is_pull_request": false
+        },
+        {
+          "id": 3266512614,
+          "title": "SkLearn IQR function",
+          "created_at": "2025-07-27T03:39:59Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31840",
+          "is_pull_request": false
+        },
+        {
+          "id": 3226800458,
+          "title": "In Balltree, filter out/mask specific points in query",
+          "created_at": "2025-07-13T20:32:13Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31754",
+          "is_pull_request": false
+        },
+        {
+          "id": 3225999847,
+          "title": "Full Python/sklearn Adaptation of py-earth",
+          "created_at": "2025-07-13T01:27:13Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31750",
+          "is_pull_request": false
+        },
+        {
+          "id": 3216975523,
+          "title": "Add More Data to the RidgeCV, LassoCV, and ElasticNetCV Path",
+          "created_at": "2025-07-09T19:53:32Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "spam"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31733",
+          "is_pull_request": false
+        },
+        {
+          "id": 3215410377,
+          "title": "Making the extension contract stable through version upgrades",
+          "created_at": "2025-07-09T10:26:51Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Developer API"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31728",
+          "is_pull_request": false
+        },
+        {
+          "id": 3204685667,
+          "title": "Frisch-Newton Interior Point Solver for Quantile Regression",
+          "created_at": "2025-07-05T10:00:37Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31708",
+          "is_pull_request": false
+        },
+        {
+          "id": 3165442611,
+          "title": "ENH: Add MedianAbsoluteDeviationScaler (MADScaler) to sklearn.preprocessing",
+          "created_at": "2025-06-21T21:26:54Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "module:preprocessing"
+            },
+            {
+              "name": "Needs Investigation"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31621",
+          "is_pull_request": false
+        },
+        {
+          "id": 3165439850,
+          "title": "ENH: Add MedianAbsoluteDeviationScaler (MADScaler) to sklearn.preprocessing",
+          "created_at": "2025-06-21T21:21:25Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31620",
+          "is_pull_request": false
+        },
+        {
+          "id": 3164145325,
+          "title": "(Perhaps) safer version of halving search",
+          "created_at": "2025-06-20T18:54:31Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31608",
+          "is_pull_request": false
+        },
+        {
+          "id": 3143573402,
+          "title": "Huber Loss for HistGradientBoostingRegressor",
+          "created_at": "2025-06-13T13:24:16Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "help wanted"
+            },
+            {
+              "name": "Hard"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31542",
+          "is_pull_request": false
+        },
+        {
+          "id": 3131914239,
+          "title": "Add free-threading wheel for Linux arm64 (aarch64)",
+          "created_at": "2025-06-10T01:59:41Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31512",
+          "is_pull_request": false
+        },
+        {
+          "id": 3128418461,
+          "title": "HDBSCAN performance issues compared to original hdbscan implementation (likely because Boruvka algorithm is not implemented)",
+          "created_at": "2025-06-08T14:53:52Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Performance"
+            },
+            {
+              "name": "help wanted"
+            },
+            {
+              "name": "Hard"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31503",
+          "is_pull_request": false
+        },
+        {
+          "id": 3111912375,
+          "title": "Add option to return final cross-validation score in SequentialFeatureSelector",
+          "created_at": "2025-06-02T23:20:53Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31473",
+          "is_pull_request": false
+        },
+        {
+          "id": 3107575436,
+          "title": "Feat: DummyClassifier strategy that produces randomized probabilities",
+          "created_at": "2025-06-01T17:27:18Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31462",
+          "is_pull_request": false
+        },
+        {
+          "id": 3098519558,
+          "title": "Spherical K-means support (unit norm centroids and input)",
+          "created_at": "2025-05-28T20:47:24Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision - Include Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31450",
+          "is_pull_request": false
+        },
+        {
+          "id": 3096095353,
+          "title": "Regression error characteristic curve",
+          "created_at": "2025-05-28T05:40:22Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31441",
+          "is_pull_request": false
+        },
+        {
+          "id": 3072465548,
+          "title": "ENH assert statement using AssertionError for `_agglomerative.py` file",
+          "created_at": "2025-05-19T04:34:29Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31382",
+          "is_pull_request": false
+        },
+        {
+          "id": 3064166756,
+          "title": "Tfidf no genera los cluster correctos para oraciones con poco significado y palabras repetidas",
+          "created_at": "2025-05-14T20:10:20Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31364",
+          "is_pull_request": false
+        },
+        {
+          "id": 3056104977,
+          "title": "Benchmark Function",
+          "created_at": "2025-05-12T08:32:05Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31356",
+          "is_pull_request": false
+        },
+        {
+          "id": 3053902770,
+          "title": "Add Multiple Kernel Learning (MKL) for Support Vector Machines (SVM)",
+          "created_at": "2025-05-10T08:24:28Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Decision"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31349",
+          "is_pull_request": false
+        },
+        {
+          "id": 3052373340,
+          "title": "Add MultiHorizonTimeSeriesSplit for Multi-Horizon Time Series Cross-Validation",
+          "created_at": "2025-05-09T14:36:35Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31344",
+          "is_pull_request": false
+        },
+        {
+          "id": 3043156255,
+          "title": "Add train_validation_test_split for three-way dataset splits",
+          "created_at": "2025-05-06T15:07:03Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            },
+            {
+              "name": "Needs Triage"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31323",
+          "is_pull_request": false
+        },
+        {
+          "id": 3026266050,
+          "title": "Change the default data directory",
+          "created_at": "2025-04-28T21:22:54Z",
+          "labels": [
+            {
+              "name": "New Feature"
+            }
+          ],
+          "html_url": "https://github.com/scikit-learn/scikit-learn/issues/31267",
+          "is_pull_request": false
+        }
+      ]
+    }
+  ]
+}

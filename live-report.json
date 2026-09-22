@@ -1,0 +1,181 @@
+{
+  "mode": "live fetch",
+  "generated_at": "2026-09-22T01:21:25.752078+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=Bug",
+      "fetched_at": "2026-09-22T01:21:22.271868+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=Documentation",
+      "fetched_at": "2026-09-22T01:21:24.427970+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/issues?state=all&per_page=100&labels=New%20Feature",
+      "fetched_at": "2026-09-22T01:21:25.742273+00:00"
+    }
+  ],
+  "result": {
+    "project": "TicketTriage",
+    "real_labeled_issues": 214,
+    "train_examples": 171,
+    "test_examples": 43,
+    "train_class_counts": {
+      "feature": 91,
+      "bug": 74,
+      "documentation": 6
+    },
+    "test_class_counts": {
+      "bug": 23,
+      "documentation": 13,
+      "feature": 7
+    },
+    "train_latest_created_at": "2026-08-03T10:36:25Z",
+    "test_earliest_created_at": "2026-08-04T15:22:26Z",
+    "evaluation": {
+      "examples": 43,
+      "accuracy": 0.5813953488372093,
+      "macro_f1": 0.4276094276094276,
+      "coverage": 1.0,
+      "majority_baseline_accuracy": 0.16279069767441862,
+      "per_class": {
+        "bug": {
+          "precision": 0.625,
+          "recall": 0.8695652173913043,
+          "f1": 0.7272727272727273
+        },
+        "documentation": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "feature": {
+          "precision": 0.45454545454545453,
+          "recall": 0.7142857142857143,
+          "f1": 0.5555555555555556
+        }
+      },
+      "confusion": {
+        "bug -> feature": 3,
+        "documentation -> bug": 10,
+        "feature -> feature": 5,
+        "bug -> bug": 20,
+        "documentation -> feature": 3,
+        "feature -> bug": 2
+      }
+    },
+    "sample_predictions": [
+      {
+        "title": "OPTICS always triggers and EfficiencyWarning",
+        "url": "https://github.com/scikit-learn/scikit-learn/issues/34647",
+        "prediction": {
+          "label": "feature",
+          "candidate": "feature",
+          "confidence": 0.5556034101884287,
+          "probabilities": {
+            "feature": 0.5556034101884287,
+            "bug": 0.437429091856593,
+            "documentation": 0.0069674979549782376
+          },
+          "known_terms": [
+            "always",
+            "and"
+          ],
+          "abstained": false
+        }
+      },
+      {
+        "title": "DOC: Array API - mention torch XPU is a bit unstable",
+        "url": "https://github.com/scikit-learn/scikit-learn/issues/34648",
+        "prediction": {
+          "label": "bug",
+          "candidate": "bug",
+          "confidence": 0.9912215966026997,
+          "probabilities": {
+            "feature": 0.008161475673799767,
+            "bug": 0.9912215966026997,
+            "documentation": 0.0006169277235005809
+          },
+          "known_terms": [
+            "a",
+            "api",
+            "array",
+            "doc",
+            "is",
+            "unstable"
+          ],
+          "abstained": false
+        }
+      },
+      {
+        "title": "Add option to drop infrequent categories in OneHotEncoder",
+        "url": "https://github.com/scikit-learn/scikit-learn/issues/34649",
+        "prediction": {
+          "label": "feature",
+          "candidate": "feature",
+          "confidence": 0.9997370211497332,
+          "probabilities": {
+            "feature": 0.9997370211497332,
+            "bug": 0.00021556089534165802,
+            "documentation": 4.741795492528951e-05
+          },
+          "known_terms": [
+            "add",
+            "categories",
+            "in",
+            "option",
+            "to"
+          ],
+          "abstained": false
+        }
+      },
+      {
+        "title": "adding weights to the calculation for Ledoit Wolf",
+        "url": "https://github.com/scikit-learn/scikit-learn/issues/34660",
+        "prediction": {
+          "label": "feature",
+          "candidate": "feature",
+          "confidence": 0.9002443470729447,
+          "probabilities": {
+            "feature": 0.9002443470729447,
+            "bug": 0.09919614911935015,
+            "documentation": 0.000559503807705162
+          },
+          "known_terms": [
+            "adding",
+            "for",
+            "the",
+            "to",
+            "weights"
+          ],
+          "abstained": false
+        }
+      },
+      {
+        "title": "dump_svmlight_file segfaults with multilabel=True and a 1D target array",
+        "url": "https://github.com/scikit-learn/scikit-learn/issues/34661",
+        "prediction": {
+          "label": "bug",
+          "candidate": "bug",
+          "confidence": 0.9485293286325462,
+          "probabilities": {
+            "feature": 0.05143366690319415,
+            "bug": 0.9485293286325462,
+            "documentation": 3.700446425957594e-05
+          },
+          "known_terms": [
+            "a",
+            "and",
+            "array",
+            "d",
+            "file",
+            "true",
+            "with"
+          ],
+          "abstained": false
+        }
+      }
+    ],
+    "note": "Maintainer labels are weak supervision; titles only, PRs excluded, duplicate normalized titles removed. Oldest 80% train, newest 20% test. Current labels can change; this is a snapshot benchmark, not a historical production backtest."
+  }
+}
