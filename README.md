@@ -2,7 +2,13 @@
 
 A trainable support-ticket classifier with multinomial Naive Bayes, confidence-based abstention, JSON model persistence, and per-class evaluation.
 
-**Focus:** Machine learning engineering / model evaluation / NLP · Python 3.11+ · Standard library · Offline demo
+## What the recorded evaluation shows
+
+The [committed public-issue snapshot](live-report.json) contains 214 labeled issues: 171 for training and the newest 43 for evaluation. On that snapshot, macro F1 is **0.428**, accuracy is **58.1%**, and documentation recall is **0%**. The training set has only six documentation examples. These results describe this sample, not production routing quality.
+
+The missed class matters more than an attractive overall score. The next experiment is to compare a TF-IDF linear model and inspect documentation errors using a separate validation set, without tuning against the held-out test set.
+
+See the [classifier and metrics](engine.py), [live data preparation](live.py), and [leakage/abstention tests](test_engine.py).
 
 ## Tech stack
 
